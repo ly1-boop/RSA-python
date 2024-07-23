@@ -37,7 +37,7 @@ def Dec2Hex(DecNum):
     HexNum = hex(DecNum)
     return HexNum    
 
-#随机产生两个大素数
+ #随机产生两个大素数
 def is_prime(num):
     if num < 2:
         return False
